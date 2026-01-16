@@ -1,0 +1,14 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "pandas>=2.3.1",
+    "pandas-stubs>=2.3.0.250703",
+    "scikit-learn>=1.7.1",
+    "slowapi>=0.1.9",
+    "yfinance>=0.2.65",
+]
